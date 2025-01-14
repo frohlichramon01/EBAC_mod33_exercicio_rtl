@@ -12,14 +12,6 @@ const mock = [
     }
 ]
 
-let index = 0
-let mensagem =  mock[index].comment
-
-function mudamensagem(){
-    index = (index + 1) 
-    mensagem = mock[index].comment
-
-}
 
 describe('Teste para o componente PostComment', () => {
     
